@@ -104,3 +104,22 @@ div img:hover{
     text-decoration: none;
     cursor: pointer;
   }
+
+  @media (max-width:768px){
+    div h1{
+      display: none;
+    }
+    div img{
+      width: 100%;
+    }
+    .modal-content p{
+      font-size: 0.8rem;
+      line-height: 1.3;
+    }
+  }
+  @media (max-width:480px){
+    .modal-content p{
+      font-size: 0.7rem;
+      line-height: 1.2;
+    }
+  }
